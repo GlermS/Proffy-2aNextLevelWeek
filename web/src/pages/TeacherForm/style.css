@@ -6,7 +6,7 @@
 #search-teachers{
     width: 90%;
     align-self:center;
-    margin-top: 12rem;
+    margin-top: 3.2rem;
 }
 
 #search-teachers label{
@@ -15,7 +15,6 @@
 
 #search-teachers .input-block{
     position: relative;
-    
 }
 
 #search-teachers .input-block + .input-block{
@@ -135,6 +134,7 @@
 
 @media(min-width:700px) {
     #search-teachers {
+        margin-bottom: -44px;
         max-width: 740px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
