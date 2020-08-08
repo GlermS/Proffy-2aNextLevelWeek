@@ -14,7 +14,8 @@
 }
 
 .logo-container img{
-	height: 9rem;
+	width:100%;
+	max-height: 10rem;
 }
 
 .hero-image{
@@ -22,6 +23,7 @@
 }
 
 .logo-container{
+	width:100%;
 	text-align:center;
 	margin-bottom: 3.2rem;
 
@@ -81,7 +83,7 @@ logo-container h2{
 	}
 
 	.total-connections{
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		display:flex;
 		align-items:center;
 		justify-content:center;
@@ -91,9 +93,11 @@ logo-container h2{
 		margin-left:0.8rem;
 	}
 
-	@media(min-width: 1100px){
+	@media(min-width: 700px){
+		#page-landing-content.container {
+			max-width: 900px;
+		}
 		#page-landing-content{
-			max-width:1100px;
 
 			display:grid;
 			grid-template-rows: 350px 1fr;
@@ -105,14 +109,18 @@ logo-container h2{
 		}
 		.logo-container {
 			grid-area: logo;
+			align-self: center;
 			text-align:left;
+			margin: 0;
 		}
 		.logo-container h2{
 			text-align: initial;
 			font-size: 2.6rem;
 		}
 		.logo-container img{
-			height:10.8rem;
+			width:auto;
+			max-height:none;
+			height:100%;
 		}
 		.hero-image {
 			grid-area: hero;
