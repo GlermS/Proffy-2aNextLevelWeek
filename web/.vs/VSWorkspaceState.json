@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
-    "\\src\\assets",
     "\\src\\components",
     "\\src\\components\\Input",
+    "\\src\\components\\PageHeader",
     "\\src\\pages",
-    "\\src\\pages\\TeacherList"
+    "\\src\\pages\\Landing",
+    "\\src\\pages\\TeacherForm",
+    "\\src\\services"
   ],
-  "SelectedNode": "\\src\\index.tsx",
+  "SelectedNode": "\\src\\services\\api.ts",
   "PreviewInSolutionExplorer": false
 }

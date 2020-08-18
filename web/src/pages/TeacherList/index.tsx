@@ -7,11 +7,11 @@ import Input from '../../components/Input'
 function TeacherList() {
     return (
         <div id="page-teacher-list" className="container">
-            <PageHeader title="Estes são os proffys disponíveis" >
+            <PageHeader title="Estes sÃ£o os proffys disponÃ­veis" >
                 <form id="search-teachers">
-                    <Input name="subject" label="Matéria" type="text" />
+                    <Input name="subject" label="MatÃ©ria" type="text" />
                     <Input name="week-day" label="Dia da semana" type="text" />
-                    <Input name="time" label="Horário" type="time" />
+                    <Input name="time" label="HorÃ¡rio" type="time" />
             </form>
             </PageHeader>
 

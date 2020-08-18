@@ -8,19 +8,19 @@ function TeacherItem(){
             <img src="https://i.pinimg.com/originals/cd/0a/5c/cd0a5ca87247fb12660ac128d68ce0dd.jpg" className="profileImg" />
             <div>
                 <strong>Diego</strong>
-                <span>Química</span>
+                <span>QuÃ­mica</span>
             </div>
         </header>
 
         <p>
-            Bio amoma moasdm  maosmnnosd   amosmdo
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         <br /><br />
-                        Mooams mome  vome moemome
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
 
         <footer>
             <p>
-                Preço/hora
+                PreÃ§o/hora
                             <strong>R$ 500,00</strong>
             </p>
             <button type="button">

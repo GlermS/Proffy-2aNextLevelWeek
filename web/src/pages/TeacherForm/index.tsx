@@ -41,8 +41,8 @@ function TeacherForm() {
     return (
         <div id="page-teacher-form" className="container">
             <PageHeader
-                title="Que bom que você quer da aulas!"
-                description = "Preencha o formulário para começar"
+                title="Que bom que vocÃª quer da aulas!"
+                description = "Preencha o formulÃ¡rio para comeÃ§ar"
             />
 
             <main>
@@ -60,7 +60,7 @@ function TeacherForm() {
                         value={whatsapp}
                         onChange={(e) => { setWhatsapp(e.target.value) }}
                      />
-                    <Input name="bio" label="Descrição" type="text"
+                    <Input name="bio" label="DescriÃ§Ã£o" type="text"
                         value={bio}
                         onChange={(e) => { setBio(e.target.value) }}
                      />
@@ -69,15 +69,15 @@ function TeacherForm() {
                 <fieldset>
                     <legend> Dados da aula </legend>
 
-                    <Input name="´subject" label="Matéria" type="text"
+                    <Input name="Ð”subject" label="MatÑ‰ria" type="text"
                         value={subject}
                         onChange={(e) => { setSubject(e.target.value) }}
                       />
-                    <Input name="cost" label="Preço/hora" type="number" min="0" step="0.01"
+                    <Input name="cost" label="PreÑ‡o/hora" type="number" min="0" step="0.01"
                         value={cost}
                         onChange={(e) => { setCost(e.target.value) }}
                       />
-                    <Input name="schedule" label="Horários disponíveis" type="text" />
+                    <Input name="schedule" label="HorÑrios disponÑveis" type="text" />
 
                 </fieldset>
 
